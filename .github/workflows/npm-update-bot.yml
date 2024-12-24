@@ -3,9 +3,10 @@ name: NPM Update Bot 🤖
 on:
   push:
     branches: [ "master" ]
-  schedule:
-    - cron: "0 0 * * *"
-
+  #schedule:
+  #  - cron: "0 0 * * *"
+permissions:
+  contents: write  # Позволяет записывать изменения в репозиторий
 jobs:
   npmupbot:
     name: NPM Update Bot 🤖
