@@ -10,7 +10,7 @@ jobs:
   deploy:
     name: Build & Deploy
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'spcfox'
+    if: github.repository_owner == 'helix82'
     permissions:
       packages: write
       contents: read
